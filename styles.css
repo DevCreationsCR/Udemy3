@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%; /* C'est égale à 10px, donc 1rem = 10px */
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 100vh;
+    padding: 2rem 7rem;
+    background-color: #FAFAFA;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 8rem;
+    transition: all 1s;
+}
+
+.logo-img:hover{
+    transform: rotateZ(360deg);
+}
+
+
+.logo-text{
+    text-decoration: none;
+    color: #2E2E2E;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.scroll-button{
+    position: fixed;
+    bottom: 5rem;
+    right: 7rem;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 30rem;
+    background-color: #FF4444;
+    padding: 1rem 1.5rem;
+    transition: all 1s;
+}
+
+.scroll-button:hover{
+    transform: scale(1.2);
+}
+
+.nav-lien{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #2E2E2E;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 1rem 0;
+    transition: all 1s;
+}
+
+.nav-lien:hover{
+    color: #00C851;
+    border-bottom: 2px #00C851 solid;
+}
+
+.content{
+    display: flex;
+    margin-top: 9rem;
+}
+
+.content-img{
+    width: 55rem;
+}
+
+.content-text{
+    padding: 5rem;
+}
+
+.content-text h2{  
+    font-size: 4rem;
+    color: #2E2E2E;
+}
+
+.content-text p{ 
+    font-size: 1.6rem; 
+    margin-top: 2rem;
+    color: #2E2E2E;
+}
+
+.button{
+    display: inline-block;
+    margin-top: 5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #00C851;
+    font-size: 2rem;
+    padding: 2rem 4rem;
+    border-radius: 20rem;
+    transition: 0.5s all;
+}
+
+.button:hover{
+    transform: translateY(2rem);
+}
+
+.section-avantage{
+    padding: 4rem 15rem;
+}
+
+.section-titre{
+    text-align: center;
+    font-size: 3rem;
+    color: #2E2E2E;
+    font-family: "Roboto", sans-serif;
+}
+
+.avantage-content{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.avantage{
+    width: 30%;
+    padding: 2rem 4rem;
+    text-align: center;
+    box-shadow: 0px 0px 20px -14px rgba(46,46,46,1);
+    transition: all 0.5s;
+}
+
+.avantage:hover{
+    box-shadow: 0px 0px 3rem -15px rgba(46,46,46,1);
+}
+
+.avantage h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+
+.avantage p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.rouge{
+    color: #FF4444;
+}
+
+.bleu{
+    color: #0D47A1;
+}
+
+.bleu-clair{
+    color: #4285f4;
+}
+
+.section-fonction{
+    background-color: #FAFAFA;
+    padding: 3rem 12rem;
+}
+
+.fonction-conteneur{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.fonction-conteneur img{
+    width: 50rem;
+}
+
+.fonction-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.fonction{
+    background-color: white;
+    box-shadow: 0px 0px 20px -14px rgba(46,46,46,1);
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fonction h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #2e2e2e;
+    letter-spacing: 2px;
+}
+
+.fonction div{
+    margin-left: 2rem;
+}
+
+.fonction p{
+    font-size: 1.4rem;
+    color: #2E2E2E;
+    margin-top: 1rem;
+}
+
+.section-news{
+    padding: 4rem 15rem;
+    text-align: center;
+}
+
+.news-titre{
+    color: #2E2E2E;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1rem;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.news-content input{
+    margin-top: 4rem;
+    padding: 1rem 30rem 1rem 1rem;
+    border: none;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    transition: all 1s;
+    border-bottom: 2px solid #00C851;
+}
+
+.news-content input:hover{
+    border-bottom: 2px solid #0D47A1;
+}
+
+.news-button{
+    color: white;
+    background-color: #00C851;
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+.footer{
+    background-color: #00C851;
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;    
+}
