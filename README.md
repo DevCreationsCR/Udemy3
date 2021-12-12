@@ -18,5 +18,4 @@
 
 ### Le Site :
 
-* Le site [ici]( https://cynrim.github.io/Udemy3/)
-* Ou ici [à venir](a-venir)
+* Le site [ici](https://devcreationscr.github.io/Udemy3/)
